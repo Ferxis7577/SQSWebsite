@@ -364,7 +364,7 @@ div#preloader {
 .navbar .active,
 .navbar .active:focus,
 .navbar li:hover>a {
-  color: #ff4d4d;
+  color: #ff4d4d;                     
 }
 
 .navbar .dropdown ul {
