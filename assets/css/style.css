@@ -2267,11 +2267,7 @@ span.email-notes {
 /*--------------------------------------------------------------
 # Responsive
 --------------------------------------------------------------*/
-@media (min-width: 1920px) {
-  .work-right-text {
-    /*padding: 150px 150px;*/
-  }
-}
+
 
 /* Normal desktop :992px. */
 @media (min-width: 992px) and (max-width: 1169px) {
