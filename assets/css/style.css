@@ -31,6 +31,32 @@ body {
   text-align: justify;
 }
 
+.cover{
+  width:100%;
+  height: 500px;
+  margin-top: 50px;
+  display: flex;
+}
+
+.box{
+  margin:15px;
+  width:600px;
+  height:550px;
+  box-shadow: -1px 0 10px #000000;
+  align-items: center;
+  justify-content: center;
+  text-align: justify;
+}
+
+.box h5{
+  text-align: center;
+}
+
+.box img{
+  width:400px;
+  height:300px;
+  object-fit: cover;
+}
 
 .alignright {
   float: right;
@@ -2411,6 +2437,18 @@ span.email-notes {
     padding: 80px 0;
   }
 
+  .cover{
+    overflow-y: scroll;
+    width:610px;
+    display:flex; 
+  }
+
+  .box{
+    width:200px;
+    height:150px;
+    text-align: justify;
+  }
+
   .slider-content h2 {
     font-size: 18px !important;
     line-height: 24px !important;
@@ -2562,6 +2600,15 @@ span.email-notes {
     height: 40px;
     line-height: 37px;
     width: 40px;
+  }
+
+  .cover{
+    overflow:scroll;  
+  }
+
+  .box{
+    width:200px;
+    height:150px;
   }
 
   .blog-post-dlc ul li {
