@@ -169,6 +169,7 @@ ul {
   list-style: outside none none;
   margin: 0;
   padding: 0;
+  display: flex;
 }
 
 input,
@@ -288,6 +289,7 @@ div#preloader {
   margin: 0;
   max-height: 40px;
 }
+
 
 @media (max-width: 768px) {
   #header {
@@ -714,19 +716,23 @@ div#preloader {
   display: block;
 }
 
-.single-well ul li {
+
+
+ul li {
   color: #444;
   display: block;
   padding: 5px 0;
+  margin: 2px;
 }
 
-.single-well ul li i {
+ul li i {
   color: #ff4d4d;
-  margin-right: 5px;
+  margin-right: 0;
   font-size: 18px;
+
 }
 
-.single-well p {
+p {
   color: #444;
 }
 
@@ -2163,6 +2169,13 @@ span.email-notes {
   padding-bottom: 20px;
 }
 
+.footer-logo img{
+  padding: 0;
+  margin: 0;
+  width: 160px;
+  height: 65px;
+}
+
 .footer-logo h2 {
   color: #222;
   padding: 0;
@@ -2488,6 +2501,7 @@ span.email-notes {
   .section-headline h3 {
     font-size: 25px;
   }
+
 
   .well-text>h2 {
     font-size: 18px;
