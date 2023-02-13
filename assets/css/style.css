@@ -30,6 +30,9 @@ body {
 .terms-section{
   text-align: justify;
 }
+.terms-section ul{
+  display: block;
+}
 
 
 
@@ -2317,6 +2320,9 @@ span.email-notes {
   .terms-section{
     text-align: justify;
   }
+  .terms-section ul{
+    display: block;
+  }
   
 }
 
@@ -2433,6 +2439,9 @@ span.email-notes {
   .terms-section{
     text-align: justify;
   }
+  .terms-section ul{
+    display: block;
+  }
   
 }
 
@@ -2448,6 +2457,9 @@ span.email-notes {
 
   .terms-section{
     text-align: justify;
+  }
+  .terms-section ul{
+    display: block;
   }
 
   .slider-content h2 {
@@ -2606,6 +2618,9 @@ span.email-notes {
 
   .terms-section{
     text-align: justify;
+  }
+  .terms-section ul{
+    display: block;
   }
 
 
