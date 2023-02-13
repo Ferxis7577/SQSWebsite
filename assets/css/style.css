@@ -278,6 +278,11 @@ div#preloader {
   color: #ff4d4d;
 }
 
+#header .logo{
+  width:150px;
+  height:60px;
+}
+
 #header .logo h1 a,
 #header .logo h1 a:hover {
   color: #fff;
@@ -287,7 +292,8 @@ div#preloader {
 #header .logo img {
   padding: 0;
   margin: 0;
-  max-height: 40px;
+  height:60px;
+  width: 90px;
 }
 
 
@@ -2172,8 +2178,7 @@ span.email-notes {
 .footer-logo img{
   padding: 0;
   margin: 0;
-  width: 160px;
-  height: 65px;
+  max-height: 100%;
 }
 
 .footer-logo h2 {
