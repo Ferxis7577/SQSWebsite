@@ -11,6 +11,7 @@
 html,
 body {
   height: 100%;
+  
 }
 
 .floatleft {
@@ -85,6 +86,7 @@ h1 {
 h2 {
   font-size: 38px;
   line-height: 40px;
+  text-align: center;
 }
 
 h3 {
@@ -394,7 +396,7 @@ div#preloader {
   z-index: 99;
   opacity: 0;
   visibility: hidden;
-  background: #fff;
+  background: rgba(0, 0, 0, 0.5);
   box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
   transition: 0.3s;
 }
@@ -407,7 +409,7 @@ div#preloader {
   padding: 10px 20px;
   font-size: 14px;
   text-transform: none;
-  color: #0d2529;
+  color: #fff;
 }
 
 .navbar .dropdown ul a i {
@@ -758,6 +760,10 @@ p {
 
 .section-headline.services-head>h2 {
   margin-bottom: 25px;
+}
+
+.section-list .service-process>i{
+  font-size: 1em;;
 }
 
 .services-details {
