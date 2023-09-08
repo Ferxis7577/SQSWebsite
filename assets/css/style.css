@@ -540,6 +540,7 @@ div#preloader {
 
 .navbar-mobile .dropdown ul a {
   padding: 10px 20px;
+  color:#444;
 }
 
 .navbar-mobile .dropdown ul a i {
